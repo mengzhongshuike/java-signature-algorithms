@@ -1,2 +1,2 @@
-# java_signature_algorithms
+# java-signature-algorithms
 java signature algorithm collection
