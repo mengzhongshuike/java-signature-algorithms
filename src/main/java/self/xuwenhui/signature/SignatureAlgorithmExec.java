@@ -32,11 +32,7 @@ public class SignatureAlgorithmExec {
      */
     public static String sign(String data, String privateKeyStr, SignatureAlgorithmEnum signatureAlgorithm)
             throws Exception {
-        Signature signature = Signature.getInstance(signatureAlgorithm.name());
-        signature.initSign(EncryptAlgorithm.generatePrivateKeyFrom(privateKeyStr, signatureAlgorithm.getAlgorithm()));
-        signature.update(data.getBytes());
-        byte[] bytes = signature.sign();
-        return EncryptAlgorithm.base64EncodeToString(bytes);
+        return sign(data.getBytes(), privateKeyStr, signatureAlgorithm);
     }
 
     /**
