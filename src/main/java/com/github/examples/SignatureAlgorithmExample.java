@@ -1,8 +1,8 @@
-package self.xuwenhui.examples;
+package com.github.examples;
 
-import self.xuwenhui.signature.EncryptAlgorithm;
-import self.xuwenhui.signature.SignatureAlgorithmEnum;
-import self.xuwenhui.signature.SignatureAlgorithmExec;
+import com.github.signature.EncryptAlgorithm;
+import com.github.signature.SignatureAlgorithmEnum;
+import com.github.signature.SignatureAlgorithmExec;
 
 import java.util.Map;
 

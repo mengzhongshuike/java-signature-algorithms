@@ -1,4 +1,4 @@
-package self.xuwenhui.signature;
+package com.github.signature;
 
 public enum SignatureAlgorithmEnum {
     MD5withRSA("RSA", 1024), SHA1withRSA("RSA", 1024), SHA256withRSA("RSA", 1024),

@@ -1,4 +1,4 @@
-package self.xuwenhui.signature;
+package com.github.signature;
 
 import java.security.Signature;
 
